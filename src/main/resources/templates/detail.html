@@ -1,0 +1,39 @@
+<html xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Detail</title>
+</head>
+<style>
+    table, p, h1, li {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+</style>
+<body>
+<h1>Detail du compte 1123</h1>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Numéro de compte</th>
+        <th>Solde du compte</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr  data-th-each="entry : ${data}">
+        <td  data-th-text="${entry.key}"> </td>
+        <td data-th-text="${entry.value}"> </td>
+
+    </tr>
+    </tbody>
+
+
+</table>
+</body>
+</html>
