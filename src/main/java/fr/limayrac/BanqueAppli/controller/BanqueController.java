@@ -1,4 +1,4 @@
-package fr.limayrac.BanqueAppli;
+package fr.limayrac.BanqueAppli.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

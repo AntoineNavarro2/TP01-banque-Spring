@@ -1,4 +1,4 @@
-package fr.limayrac.BanqueAppli;
+package fr.limayrac.BanqueAppli.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,22 +46,6 @@ public class ComptesController {
     }
 
 
-    @RequestMapping(path = "/creer")
-    @ResponseBody
-    public String Creer(){
-        return "Création de compte";
-    }
 
-    @RequestMapping(path = "/editer")
-    @ResponseBody
-    public String Editer(){
-        return "Edition de compte";
-    }
-
-    @RequestMapping(path = "/effacer")
-    @ResponseBody
-    public String Effacer(){
-        return "Suppresion de compte";
-    }
 
 }

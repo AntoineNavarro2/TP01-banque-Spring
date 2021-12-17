@@ -1,4 +1,4 @@
-package fr.limayrac.BanqueAppli;
+package fr.limayrac.BanqueAppli.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package fr.limayrac.BanqueAppli;
+package fr.limayrac.BanqueAppli.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,22 +46,6 @@ public class ClientController {
     }
 
 
-    @RequestMapping(path = "/creer")
-    @ResponseBody
-    public String Creer(){
-        return "Création d'un client";
-    }
 
-    @RequestMapping(path = "/editer")
-    @ResponseBody
-    public String Editer(){
-        return "Edition d'un client";
-    }
-
-    @RequestMapping(path = "/effacer")
-    @ResponseBody
-    public String Effacer(){
-        return "Suppresion d'un client";
-    }
 
 }
